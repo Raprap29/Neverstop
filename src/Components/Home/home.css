@@ -1,0 +1,253 @@
+.bg-custom{
+    background-color: #141728;
+    height: 160vh;
+    box-shadow: inset 0 -80px 80px rgba(0,0,0);
+}
+
+.bg-custom_2{
+    background-color: #000;
+    height: 100%;
+}
+
+.bg-margin{
+    margin-top: 2rem;
+}
+
+
+.curstomMargin{
+    padding-top: 2.5rem;
+}
+
+.ImgBg{
+    background-image: url(../Home/img/BackgroundHome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 89.7vh;
+}
+
+.imgTorn{
+    height: 89.7vh;
+}
+
+.p-home{
+    font-size: 18px;
+    margin-top: -3rem;
+    text-align: justify;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-button-cus{
+    background-color: #E1D49F;
+    box-shadow: 
+        inset 0px -3px 10px rgba(0, 0, 0, .50), 
+        5px 5px 5px 2px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+
+}
+
+.bg-button-cus:hover{
+    background-color: rgba(225, 212, 159, .80);
+}
+
+.scrollDown{
+    transform: rotate(-90deg);
+    bottom: 290px;
+    right: 540px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Lemon', cursive;
+    font-weight: 700;
+}
+
+.ButtonDown{
+    width: 50px;
+    border-radius: 50px;
+    height: 90px;
+    right: 608px;
+    cursor: pointer;
+    bottom: 90px;
+}
+
+.BallSolid{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 13.5px;
+    top: 10px;
+    transition: ease-in .2s;
+}
+
+.ButtonDown:hover .BallSolid{
+    top: 50px;
+    background-color: #E1D49F;
+}
+
+.bg-box-model{
+    top: -3.5rem;
+    background-color: #E1D49F;
+    padding: .5rem;
+    max-width: 1200px;
+}
+
+.corousel{
+    padding: 4rem;   
+}
+
+.BtnBg{
+    background-color: #FFFFFF;
+    padding: 15px 18px;
+    border-radius: 5px;
+    box-shadow: 
+        inset 0px -3px 10px 0px rgba(0, 0, 0, .50), 
+        5px 5px 4px 2px rgba(0, 0, 0, .25);
+}
+
+.slick-dots li.slick-active button::before{
+    color: #fff !important;
+}
+
+.slick-dots li button::before{
+    color: #000;
+    font-size: 1rem !important;
+    top: 1rem !important;
+}
+
+.slick-next{
+    right: -40px !important;
+}
+
+.slick-slide div{
+    margin: 0 1rem 0 1rem;
+}
+
+.boxSchd{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BoxContainerSchd{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: -5rem;
+    padding: 2rem;
+    font-weight: 900;
+}
+
+select#place {
+    position: relative;
+    width: 220px;
+    border: none;
+    outline: none;
+    border-bottom: 2px rgb(0, 0, 0, .50) solid;
+    padding-bottom: 1rem;
+}
+
+.Date{
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0, .50);
+    padding-bottom: .4rem;
+    gap: 10px;
+    align-items: center;
+}
+
+#day, #month, #year{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0, .50);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#bedRooms{
+    outline: none;
+    width: 280px;
+    border-bottom: 2px solid rgb(0, 0, 0, .50);
+    padding-bottom: 1rem;
+}
+
+.BtnSched{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BtnSched button{
+    font-size: 1.7rem;
+    border: 1px solid #E71632;
+    padding: .8rem .8rem;
+    border-radius: 50px;
+    background-color: #E71632;
+    color: #fff;
+    transition: all ease .3s;
+}
+
+.BtnSched button:hover{
+    border: 1px solid #139c1f;
+    background-color: #139c1f;
+}
+
+.BoxOffer{
+    background-color: #121111;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-section .row {
+    display: flex;
+  }
+  
+  .image-section .col-md-6 {
+    width: 50%;
+    padding: 0 15px;
+  }
+
+  .LineAbout{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    max-width: 400px;
+    background-color: #E1D49F;
+  }
+
+  .slide-container {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 767px) {
+    .image-section .row {
+      flex-wrap: wrap;
+    }
+
+    .md{
+        flex-direction: column;
+    }
+    
+    .md image{
+        width: 60%;
+    }
+
+    .image-section .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    
+    .image-section .offset-md-3 {
+      margin-left: 25%;
+    }
+  }
+  
