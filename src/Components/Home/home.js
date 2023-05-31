@@ -15,7 +15,7 @@ import imageData1 from "../Home/img/philippines-banaue-rice-terraces.jpg";
 function NeverStopHome() {
     const data = [
         {
-         img: 'man-enjoying-nature-woods-forest9.jpg',
+         img: 'man-enjoying-nature-woods-forest.jpg',
          imageDes: "Banff, Canada"
         },
         {
@@ -67,7 +67,7 @@ function NeverStopHome() {
              description: "Capital of the Roman Empire; a great cultural and artistic centre, esp during the Renaissance."
          },
          {
-             img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+             img: 'man-enjoying-nature-woods-forest.jpg',
              category: "Canada",
              description: "The Canadian Pacific built a series of grand hotels along the rail line and advertised the Banff Springs Hotel as an international tourist resort."
          },
@@ -77,12 +77,12 @@ function NeverStopHome() {
              description: "The Banaue Rice Terraces are terraces that were carved into the mountains of Banaue, Ifugao, in the Philippines, by the ancestors of the Igorot people.",
          },
          {
-             img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+             img: 'man-enjoying-nature-woods-forest.jpg',
              category: "Canada",
              description: "The Canadian Pacific built a series of grand hotels along the rail line and advertised the Banff Springs Hotel as an international tourist resort."
          },
          {
-             img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+             img: 'man-enjoying-nature-woods-forest.jpg',
              category: "Canada",
              description: "The Canadian Pacific built a series of grand hotels along the rail line and advertised the Banff Springs Hotel as an international tourist resort."
          },
@@ -92,7 +92,7 @@ function NeverStopHome() {
              description: "Capital of the Roman Empire; a great cultural and artistic centre, esp during the Renaissance."
          },
          {
-             img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+             img: 'man-enjoying-nature-woods-forest.jpg',
              category: "Canada",
              description: "The Canadian Pacific built a series of grand hotels along the rail line and advertised the Banff Springs Hotel as an international tourist resort."
          },
