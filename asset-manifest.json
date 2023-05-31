@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Neverstop/static/css/main.52a53b69.css",
+    "main.js": "/Neverstop/static/js/main.68c348c1.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Neverstop/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/BackgroundHome.png": "/Neverstop/static/media/BackgroundHome.6ca0f80c1d015512d574.png",
+    "static/media/man-enjoying-nature-woods-forest.jpg": "/Neverstop/static/media/man-enjoying-nature-woods-forest.dd365e4cadeb5d33ea93.jpg",
+    "static/media/philippines-banaue-rice-terraces.jpg": "/Neverstop/static/media/philippines-banaue-rice-terraces.46ff140a5dcdc88ecf12.jpg",
+    "static/media/top-places-to-visit-in-the-world-rome-italy.jpg": "/Neverstop/static/media/top-places-to-visit-in-the-world-rome-italy.990a38db4f62ff4123d3.jpg",
+    "static/media/-removebg-preview (1).png": "/Neverstop/static/media/22b8289b4845282e33788c94352ffd74-removebg-preview (1).8a2c08fd51e83b475251.png",
+    "static/media/-black.png": "/Neverstop/static/media/22b8289b4845282e33788c94352ffd74-black.d3761db3881e9d06e66e.png",
+    "static/media/right-preview.png": "/Neverstop/static/media/right-preview.050ae1912c0401ec7fbc.png",
+    "static/media/doubleCurl.png": "/Neverstop/static/media/doubleCurl.2544e2961cda026a2101.png",
+    "static/media/left-preview.png": "/Neverstop/static/media/left-preview.7c6773730af28739aa93.png",
+    "static/media/SideTorn.png": "/Neverstop/static/media/SideTorn.fea37c06ea7b49501abb.png",
+    "static/media/slick.svg": "/Neverstop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Neverstop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Neverstop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Neverstop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Neverstop/index.html",
+    "main.52a53b69.css.map": "/Neverstop/static/css/main.52a53b69.css.map",
+    "main.68c348c1.js.map": "/Neverstop/static/js/main.68c348c1.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Neverstop/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52a53b69.css",
+    "static/js/main.68c348c1.js"
+  ]
+}
