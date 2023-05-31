@@ -9,13 +9,13 @@ import leftPreview from "../Home/img/left-preview.png";
 import rightPreview from "../Home/img/right-preview.png";
 import {Card, CardImages} from "../Home/Card/CardImages";
 import { FaArrowRight, FaArrowLeft, FaStar, FaYoutube, FaTwitter, FaFacebookF } from 'react-icons/fa';
-import imageData from "../Home/img/man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg";
+import imageData from "../Home/img/man-enjoying-nature-woods-forest.jpg";
 import imageData1 from "../Home/img/philippines-banaue-rice-terraces.jpg";
 
 function NeverStopHome() {
     const data = [
         {
-         img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+         img: 'man-enjoying-nature-woods-forest9.jpg',
          imageDes: "Banff, Canada"
         },
         {
@@ -34,7 +34,7 @@ function NeverStopHome() {
      
      const DataCustomerFeedBack=[
         {
-            img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+            img: 'man-enjoying-nature-woods-forest.jpg',
             Name: "Ralph Matthew Maglaya",
             FeedBack: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         },
@@ -112,7 +112,7 @@ function NeverStopHome() {
             description: "The Banaue Rice Terraces are terraces that were carved into the mountains of Banaue, Ifugao, in the Philippines, by the ancestors of the Igorot people.",
         },
          {
-            img: 'man-enjoying-nature-woods-forest-environment-tourism-vacation-leisure-activity-people-enjoying-photography-feeling-with-natural-place_425263-5519.jpg',
+            img: 'man-enjoying-nature-woods-forest.jpg',
             category: "Canada",
             description: "The Canadian Pacific built a series of grand hotels along the rail line and advertised the Banff Springs Hotel as an international tourist resort."
         },
