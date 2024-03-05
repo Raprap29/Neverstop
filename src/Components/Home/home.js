@@ -350,13 +350,13 @@ function NeverStopHome() {
                             </div>
                         </div>
                     </section>
-                    <section className="bg-[#121111] shadow-custom" style={{height: "145vh"}}>
+                    <section className="bg-[#121111] shadow-custom">
                        <div className="container mx-auto flex flex-col justify-center items-center">
                             <div className="md flex justify-between items-center mt-20">
                                 <p className="text-primary text-[45px] lemon" style={{maxWidth: "400px"}}>We Provide the best Location</p>
                                 <img style={{width: "60%"}} src={require(`../Home/img/doubleCurl.png`)} />
                             </div>
-                            <div className="text-primary font-bold text-[20px] flex justify-center items-center mt-10">
+                            <div className="text-primary max-[768px]:flex-col font-bold text-[20px] flex justify-center items-center mt-10">
                                 <div className="relative">
                                     <button onClick={() => setSelectCategory("All Categories")} className="px-[100px]" type="button">All Categories</button>
                                     <div className={SelectCategory === "All Categories" ? "block w-full h-[3px] bg-[#E1D49F] mt-2 absolute" : "none"}></div>
@@ -375,7 +375,7 @@ function NeverStopHome() {
                                 </div>
                             </div>
                        </div>
-                       <div className="container mx-auto grid grid-cols-3 mt-10 justify-center items-center">
+                       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 mt-10 justify-center items-center">
                             {visibleCards.slice(0, 6).map((item, index) =>(
                                 <CardImages key={index} images={require(`../Home/img/${item.img}`)} category={item.category} description={item.description} />
                             ))}                           
